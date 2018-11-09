@@ -5,7 +5,7 @@ import java.util.Random;
 /**
  * 
  * @author Young
- * len³¤¶È
+ * lené•¿åº¦
  *
  */
 
@@ -20,7 +20,7 @@ public String createPassWord(int random,int len){
 	Random rd = new Random(random);
 	final int  maxNum = 100;
 	StringBuffer sb = new StringBuffer();
-	int rdGet;//È¡µÃËæ»úÊı
+	int rdGet;//å–å¾—éšæœºæ•°
 	char[] str = { 'a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'i', 'j', 'k',
 		    'l', 'm', 'n', 'o', 'p', 'q', 'r', 's', 't', 'u', 'v', 'w',
 		    'x', 'y', 'z', 'A','B','C','D','E','F','G','H','I','J','K',
